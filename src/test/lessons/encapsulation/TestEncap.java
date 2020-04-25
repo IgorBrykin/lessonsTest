@@ -1,6 +1,7 @@
 package test.lessons.encapsulation;
 
-public class TestUncaps {
+public class TestEncap {
+
     public static void main(String[] args) {
         Person person = new Person("Sena", 8);
         System.out.println(person);
