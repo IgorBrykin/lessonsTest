@@ -1,4 +1,4 @@
-package test.lessons;
+package test.lessons.encapsulation;
 
 public class Main {
 

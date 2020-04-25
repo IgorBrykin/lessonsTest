@@ -1,4 +1,4 @@
-package test.lessons;
+package test.lessons.encapsulation;
 
 public class TestUncaps {
     public static void main(String[] args) {
