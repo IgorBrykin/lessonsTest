@@ -1,22 +1,23 @@
 package test.lessons;
 
-public class TestUncaps {public static void main(String[] args) {
-    Person person = new Person("Sena", 8);
-    System.out.println(person);
+public class TestUncaps {
+    public static void main(String[] args) {
+        Person person = new Person("Sena", 8);
+        System.out.println(person);
 
-    Person person1 = new Person();
-    person.setName("");
-    person.getName();
-    System.out.println(person);
-    System.out.println(person1);
-    System.out.println("--------------");
-    person1.setName("Sasha");
-    person1.setAge(8);
-    person.setAge(0);
-    person.setName("");
-    System.out.println(person1.toString());
-    System.out.println(person);
-}
+        Person person1 = new Person();
+        person.setName("");
+        person.getName();
+        System.out.println(person);
+        System.out.println(person1);
+        System.out.println("--------------");
+        person1.setName("Sasha");
+        person1.setAge(8);
+        person.setAge(0);
+        person.setName("");
+        System.out.println(person1.toString());
+        System.out.println(person);
+    }
 
 
 }
